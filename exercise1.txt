@@ -1,0 +1,87 @@
+~~~~~exercise 1.13~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Exercise 1.1 What is the function of the secondary memory in a computer? 
+
+answer : c. Store information for the long term - even beyond a power cycle 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Exercise 1.2 What is a program? 
+
+answer : a program is like a recipe. It contains a list of ingredients (called variables) and a list of directions (called statements) that tell the computer what to do with the variables. The variables can represents numeric data, text, or graphical images.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Exercise 1.3 What is is the difference between a compiler and an interpreter? 
+
+answer : 
+
+1. interpreter
+reads the source code of the program as written by the programmer 
+Process program as written by the programmer immediately and is ready for us to type another line 
+To execute a program in a high-level language by translating it one line at a time.
+interactive conversation
+
+2. compiler
+needs to be handed the entire program in a file 
+trans late the high level source code into machine language  
+To translate a program written in a high-level language into a low-level language all at once 
+puts the resulting machine language into a file for later execution 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+exercise 1.4 Which of the following contains ”machine code”? 
+
+answer : a. The Python interpreter 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+exercise 1.5 What is wrong with the following code: 
+
+>>> primt 'Hello world!'
+File "<stdin>", line 1
+primt 'Hello world!'
+ˆ
+SyntaxError: invalid syntax
+>>>
+
+answer : primt -> print
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+exercise 1.6 Where in the computer is a variable such as ”X” stored after the following Python line finishes? 
+
+x = 123 
+
+answer : b) main memory 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+exercise 1.7 what will the following program print out: 
+
+x = 43 
+x = x + 1 
+print x 
+
+answer : b) 44 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+exercise 1.8 Explain each of the following using an example of a human capability: (1) Central 
+processing unit, (2) Main Memory, (3) Secondary Memory, (4) Input Device, and (5) Output 
+Device. For example, ”What is the human equivalent to a Central Processing Unit”? 
+
+answer :
+
+(1) The Central Processing Unit The heart of any computer. so, if the cpu is analogous to the human, it is center of all activity sources. in this case is the head of the computer, in it there is the brain that regulate the form of computer work and is often called a processor chip. therefore, if the cpu device does not exist in computer, computer can't work. 
+(2) The Main Memory is used to store information that the CPU needs in a hurry. The main memory is nearly as fast as the CPU. But the information stored in the main memory vanishes when the computer is turned off. So, if the main memory is analogous to the human, this is like memory for a moment. when it is too long, then that memory will be forgotten.
+(3) The Secondary Memory is also used to store information, but it is much slower than the main memory. The advantage of the secondary memory is that it can store information even when there is no power to the computer. If the secondary memory analogous to the human, this same like part of the brain that stores memories permanently and in the long term. usually, the human brain to remember the important things that happen in long term.
+(4) The "input device" such as the human body whose function is to receive stimuli from the outside (environment). such as ear, eye, nose and mouth. same like the ear that receives the information, and will be processed by the brain.  
+(5) The “output device” is closely related to the input device. after the input process, then there will be continuity of the process. where the information obtained from the input will produce the output. for example, in humans, after hearing one of information, it will be processed in brain and produce the idea from such information, as well as the solution of such information.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Exercise 1.9 How do you fix a ”Syntax Error”?
+
+answer :
+
+1. look at each line of the program.
+2. find fault that there is in the writing.
+3. note the variable name, there should be no spaces.
+4. well understood “grammar” rules of phyton.
